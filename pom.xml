@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Exit_Session_Framework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>base</module>
+        <module>com.automation.scaledupit</module>
+        <module>com.amazon</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>5.0.0</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>5.0.0</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.27</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.4.0</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>4.1.1</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>5.0.3</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+            <dependency>
+                <groupId>com.github.javafaker</groupId>
+                <artifactId>javafaker</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aventstack</groupId>
+                <artifactId>extentreports</artifactId>
+                <version>4.0.9</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.relevantcodes</groupId>
+                <artifactId>extentreports</artifactId>
+                <version>2.41.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.2.0</version>
+                <type>maven-plugin</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>${basedir}/src/test/reports</directory>
+                            <followSymlinks>false</followSymlinks>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <testng.dtd.http>true</testng.dtd.http>
+                    </systemPropertyVariables>
+
+                    <testFailureIgnore>true</testFailureIgnore>
+
+                    <suiteXmlFiles>
+                        <suiteXmlFile>target/test-classes/ATTTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/AutomationPracticeTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/BankOfAmericaTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/BMWUSATestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/BookingTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/EbayTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ESPNTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ExpediaTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MarketWatchTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MBUSATestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/RedfinTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/SoFiTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/StreetEasyTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/VerizonTestNGRunner.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2919ef5-b2be-458d-8853-b321a87655b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/annotations/RetryCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/config/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/listeners/AnnotationTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/listeners/DriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/utils/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/utils/ExcelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/utils/GenerateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/utils/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/resources/config/report-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/AmazonBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/AmazonHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/AmazonOutlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/BeautyPersonalCare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/BestDeals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/Coupons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/Groceries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/Pharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon/UniqueFinds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/AmnHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/BasicHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/BathRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/BedRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/DailyLiving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/amazon_basicpage/LivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/annotations/RetryCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/config/AmazonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/config/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/listeners/AnnotationTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/listeners/DriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/utils/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/utils/ExcelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/utils/GenerateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/java/utils/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/main/resources/amazon.property" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestAmazonBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestAmazonOutlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestAmnHomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestBeautyPersonalCare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestBestDeals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestCoupons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestGroceries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestPharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon/TestUniqueFinds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestAmnHomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestBasicHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestBathRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestBedRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestDailyRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestKetchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestLivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.amazon/src/test/java/amazon_basicpage/TestamnHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/ItemPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/java/MyAccount/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/main/resources/config/report-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/java/TestAmazon/TestAmazonBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/java/TestAmazon/TestHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/java/system_authentication/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/java/system_authentication/TestRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/java/system_authentication/TestShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/resources/FreeCRMTestNGRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.automation.scaledupit/src/test/resources/test_cases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2L1TeLao7XjqfOpoUrHwIZP4yjN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gutii/IdeaProjects/Exit_Session_Framework/com.amazon/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gutii\IdeaProjects\Exit_Session_Framework\com.amazon\src\main\java" />
+      <recent name="C:\Users\gutii\IdeaProjects\Exit_Session_Framework\com.amazon1\src\test\java" />
+      <recent name="C:\Users\gutii\IdeaProjects\Exit_Session_Framework\com.amazon1\src\main\java" />
+      <recent name="C:\Users\gutii\IdeaProjects\Exit_Session_Framework\com.automation.scaledupit\src\main\java\amazon_basicpage" />
+      <recent name="C:\Users\gutii\IdeaProjects\Exit_Session_Framework\com.automation.scaledupit\src\test\java\amazon_basicpage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestAmazon" />
+      <recent name="system_authentication" />
+      <recent name="amazon_basicpage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAmazonBasic.testAmazonHomePage">
+    <configuration name="TestAmazonBasic" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestAmazonBasic" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAmazonBasic.testAmazonHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.TestAmazonBasic" />
+      <option name="METHOD_NAME" value="testAmazonHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBasicHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon_basicpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon_basicpage" />
+      <option name="MAIN_CLASS_NAME" value="amazon_basicpage.TestBasicHome" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestamnHome.TestLivingRoom" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon_basicpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon_basicpage" />
+      <option name="MAIN_CLASS_NAME" value="amazon_basicpage.TestamnHome" />
+      <option name="METHOD_NAME" value="TestLivingRoom" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestamnHome.testAccessBasicHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon_basicpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon_basicpage" />
+      <option name="MAIN_CLASS_NAME" value="amazon_basicpage.TestamnHome" />
+      <option name="METHOD_NAME" value="testAccessBasicHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestAmazonBasic.testAmazonHomePage" />
+        <item itemvalue="TestNG.TestAmazonBasic" />
+        <item itemvalue="TestNG.TestBasicHome" />
+        <item itemvalue="TestNG.TestamnHome.testAccessBasicHome" />
+        <item itemvalue="TestNG.TestamnHome.TestLivingRoom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2919ef5-b2be-458d-8853-b321a87655b3" name="Changes" comment="" />
+      <created>1675037685677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675037685677</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Exit_Session_Framework$TestLogin.ic" NAME="TestLogin Coverage Results" MODIFIED="1675539763541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>system_authentication.*</FILTER>
+    </SUITE>
+  </component>
+</project>
