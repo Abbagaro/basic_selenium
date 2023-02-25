@@ -19,4 +19,9 @@ public class TestAmazonBasic extends BasePage {
         homePage.navigateToAmazonHomePage();
 
     }
+
+    public static void main(String[] args) {
+        System.out.println("first");
+    }
+
 }
